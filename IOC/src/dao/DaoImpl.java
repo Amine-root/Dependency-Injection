@@ -8,5 +8,9 @@ public class DaoImpl implements IDao{
 		double data = 98;
 		return data;
 	}
+	
+	public void init() {
+		System.out.println("Instance DaoImpl");
+	}
 
 }

@@ -16,6 +16,11 @@ public class MetierImpl implements IMetier{
 	
 	public void setDao(IDao dao) {
 		this.dao = dao;
+		System.out.println("Dependency Injection");
+	}
+	
+	public void init() {
+		System.out.println("Instance MetierImpl");
 	}
 	
 }
